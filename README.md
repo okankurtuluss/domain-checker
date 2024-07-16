@@ -25,11 +25,17 @@ Check the availability of the domain targetdomain across multiple TLDs:
 
 python script.py -d targetdomain
 
-!([https://raw.githubusercontent.com/yourusername/your-repo-name/main/screenshots/filename.png])
+![](https://github.com/okankurtuluss/domain-checker/blob/okankurtuluss/main/screenshots/usage-1.png)
+
+![](https://github.com/okankurtuluss/domain-checker/blob/okankurtuluss/main/screenshots/usage-2.png)
+
+![](https://github.com/okankurtuluss/domain-checker/blob/okankurtuluss/main/screenshots/usage-3.png)
 
 Check the availability of the domain targetdomain with the specific TLD .com:
 
 python script.py -d targetdomain -t com
+
+![](https://github.com/okankurtuluss/domain-checker/blob/okankurtuluss/main/screenshots/usage-4.png)
 
 Save the results to a file named results.txt:
 
