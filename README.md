@@ -25,7 +25,7 @@ Run the script with the base domain name as an argument. You can also specify a 
 
 Check the availability of the domain targetdomain across multiple TLDs:
 
-python script.py -d targetdomain
+python domain-checker.py -d targetdomain
 
 ![](https://github.com/okankurtuluss/domain-checker/blob/okankurtuluss/main/screenshots/usage-1.png)
 
@@ -35,17 +35,17 @@ python script.py -d targetdomain
 
 Check the availability of the domain targetdomain with the specific TLD .com:
 
-python script.py -d targetdomain -t com
+python domain-checker.py -d targetdomain -t com
 
 ![](https://github.com/okankurtuluss/domain-checker/blob/okankurtuluss/main/screenshots/usage-4.png)
 
 Save the results to a file named results.txt:
 
-python script.py -d targetdomain -o results.txt
+python domain-checker.py -d targetdomain -o results.txt
 
 Check the availability of the domain targetdomain with the specific TLD .com and save the results to a file named results.txt:
 
-python script.py -d targetdomain -t com -o results.txt
+python domain-checker.py -d targetdomain -t com -o results.txt
 
 ## Notes
 The script uses the whois command-line tool to fetch WHOIS information. Ensure that the whois tool is installed on your system.
