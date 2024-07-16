@@ -25,6 +25,8 @@ Check the availability of the domain targetdomain across multiple TLDs:
 
 python script.py -d targetdomain
 
+!([https://raw.githubusercontent.com/yourusername/your-repo-name/main/screenshots/filename.png])
+
 Check the availability of the domain targetdomain with the specific TLD .com:
 
 python script.py -d targetdomain -t com
