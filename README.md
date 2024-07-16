@@ -18,7 +18,9 @@ pip install colorama argparse
 Run the script with the base domain name as an argument. You can also specify a specific TLD to check and an output file to save the results.
 
 -d or --domain (required): Base domain name to check.
+
 -t or --tld (optional): Specific TLD to check (e.g., com, net, org, etc.). If not specified, the script checks multiple common TLDs (com, net, org, info, biz, com.tr).
+
 -o or --output (optional): Output file to save results.
 
 Check the availability of the domain targetdomain across multiple TLDs:
