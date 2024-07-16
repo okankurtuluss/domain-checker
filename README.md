@@ -1,6 +1,8 @@
 # Domain Availability and WHOIS Checker
 This script checks the availability of domain names and retrieves WHOIS information for the specified domains. It supports checking multiple TLDs and generates variations of the given domain name to identify possible typosquatting.
 
+You can use it if you want to buy a domain for red team work or if you want to list domains similar to your company's domain on the defense side.
+
 ## Requirements
 Python 3.x
 
