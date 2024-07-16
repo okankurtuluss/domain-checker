@@ -22,15 +22,19 @@ Run the script with the base domain name as an argument. You can also specify a 
 -o or --output (optional): Output file to save results.
 
 Check the availability of the domain targetdomain across multiple TLDs:
+
 python script.py -d targetdomain
 
 Check the availability of the domain targetdomain with the specific TLD .com:
+
 python script.py -d targetdomain -t com
 
 Save the results to a file named results.txt:
+
 python script.py -d targetdomain -o results.txt
 
 Check the availability of the domain targetdomain with the specific TLD .com and save the results to a file named results.txt:
+
 python script.py -d targetdomain -t com -o results.txt
 
 ## Notes
